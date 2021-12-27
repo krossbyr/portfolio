@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  overflow:scroll;
+  }
+
+.header{
+    background-color: #1F2937;
+    color:aliceblue;
+    text-decoration: none;
+    padding: 18px;
+    
+}
+
+   
+    a:hover, a:visited, a:link, a:active{
+        text-decoration: none
+    }
+    ul , a {
+        text-decoration: none;
+        list-style-type: none;
+        text-decoration-line: none;
+        color: #E5E7EB;
+        gap: 18px;
+    }
+
+    .loginButton {
+        color:#E5E7EB;
+        background-color: #3882F6;
+        font-size: 11px;
+        padding: 1px
+        ;
+
+           } 
+
+.presentation{
+    background-color: #1F2937;
+    color:aliceblue;
+    padding: 100px;
+}
+
+    .textAndButton{
+        max-width: 350px;
+    }
+        .title{
+            font-size:48px;
+            font-weight: bold;
+
+        }
+
+        button{
+            background-color: #3882F6;
+            color: #FFFFFF;
+            float: right;
+            padding: 10px;
+            border-radius: 10px;
+            min-width: 30px;
+            max-width: 90px;
+
+        }
+
+    .imagePresentation{
+        background-color: grey;
+          }
+
+.RandomInformation{
+  text-align: center;
+  color:#1F2937;
+  flex: 1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+    .RandomInformation .title{
+        font-size: 36px;
+        margin-bottom: 30px
+    }
+    .infoCards{
+        display: flex;
+        justify-content: center;
+        gap: 18px
+    }
+        .RandomInformation img {
+        border-style:solid;
+        border-color:#f63877;
+        border-radius: 10px;
+        width: 100px;
+        height: 100px;
+        }
+
+    .info .text{
+        max-width: 200px;
+    }
+
+.quotes{
+    background-color: #E5E7EB;
+    color: black;
+    flex: 1;
+    padding: 50px;
+   }
+        .textbox .quote{
+        font-size: 36px;
+        font-style: italic;
+    }
+
+  .action{
+    background-color: #3882F6;
+    color: black;
+    flex: 0.8;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:aliceblue;
+    display: flex;
+    padding: 8px;
+    text-decoration: none;
+}
