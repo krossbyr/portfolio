@@ -5,10 +5,18 @@ body{
   margin: 0;
   font-family: Roboto, sans-serif;
   overflow:scroll;
+  background-color: #1A374D;
   }
 
+  img {
+    width: 90px;
+    height: 90px;
+    margin: auto;    
+    display: block;;
+}
+/* Barra superior */
 .header{
-    background-color: #1F2937;
+    background-color: #1A374D;
     color:aliceblue;
     text-decoration: none;
     padding: 18px;
@@ -27,23 +35,29 @@ body{
         gap: 18px;
     }
 
-    .loginButton {
+    .loginButton { /* Boton de login*/
         color:#E5E7EB;
         background-color: #3882F6;
         font-size: 11px;
-        padding: 1px
+        padding: 3px
         ;
 
            } 
+    .button-right { /* Barra superior */
+        font-size: 16px;
+        margin-left: 2%;
+    }
+/* Barra superior */
 
+/* Banner */
 .presentation{
-    background-color: #1F2937;
+    background-color: #1A374D;
     color:aliceblue;
     padding: 100px;
 }
 
     .textAndButton{
-        max-width: 350px;
+        max-width: 100%;
     }
         .title{
             font-size:48px;
@@ -65,19 +79,44 @@ body{
     .imagePresentation{
         background-color: grey;
           }
-
-.RandomInformation{
+/* Banner */
+.acercaDeMi{
   text-align: center;
-  color:#1F2937;
-  flex: 1;
-  padding-top: 50px;
+  color:#10233d;
+  padding-top: 20px;
   padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 2vh;
+  background-color: #E5E7EB
+  
+    }
+
+.bordeExterno{ /* Esto es para cada borde externo que haga*/
+ border: solid;
+  border-width: 4px; 
+  border-color: #10233d;
+  border-radius: 15px; 
 }
+
+.infoDatos{
+    margin-left: 10px;
+}
+
+.tituloCol{
+    font-weight: bold;
+      }
+      
     .RandomInformation .title{
         font-size: 36px;
-        margin-bottom: 30px
+    
     }
-    .infoCards{
+
+/* Banner */
+
+/* Acerca de*/
+
+.infoCards{
         display: flex;
         justify-content: center;
         gap: 18px
